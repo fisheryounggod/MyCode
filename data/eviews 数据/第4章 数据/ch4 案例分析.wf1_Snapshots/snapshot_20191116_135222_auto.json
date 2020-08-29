@@ -1,0 +1,107 @@
+
+{
+	"commands" : "",
+	"description" : "",
+	"label" : "save",
+	"workbook_meta" : 
+	{
+		"_name" : "\\\\mac\\home\\desktop\\案例数据\\第4章 数据\\ch4 案例分析.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "A",
+				"_last_update" : [ 737378.5764351852, "11/16/2019 13:50" ],
+				"_name" : "Untitled",
+				"_obj_count" : 15,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 734137.0, "01/01/2011" ],
+						"_obs_min" : [ 727928.0, "01/01/1994" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "LNX2",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LNX3",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LNX4",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LNX5",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LNY",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "X2",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "X3",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "X4",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "X5",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "X7",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "X8",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "X9",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "Y",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 18
+			}
+		]
+	}
+}
