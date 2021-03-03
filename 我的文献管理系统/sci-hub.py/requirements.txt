@@ -1,5 +1,0 @@
-argparse
-requests
-lxml
-contextlib
-tqdm
