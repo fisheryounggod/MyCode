@@ -1,0 +1,85 @@
+
+  ___  ____  ____  ____  ____ ©
+ /__    /   ____/   /   ____/      17.0
+___/   /   /___/   /   /___/       MP—Parallel Edition
+
+ Statistics and Data Science       Copyright 1985-2021 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Drive
+                                   College Station, Texas 77845 USA
+                                   800-STATA-PC        https://www.stata.com
+                                   979-696-4600        stata@stata.com
+
+Stata license: Unlimited-user 4-core network, expiring 13 Mar 2022
+Serial number: 501709301094
+  Licensed to: 公众号【马克数据网】
+               
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help unicode_advice.
+      3. More than 2 billion observations are allowed; see help obs_advice.
+      4. Maximum number of variables is set to 5,000; see help set_maxvar.
+
+
+Running /Applications/Stata/profile.do ...
+
+   
+         =============================================
+         
+                    Hello World! Hello Stata!
+
+         =============================================
+
+Stata官网： [Stata.com]    [Stata-FAQ]       [Stata-Blogs]    [Stata-资源链接] 
+
+Stata论坛： [Stata-list]   [Stack-Overflow]  [经管之家-人大论坛] 
+Stata资源： [Stata连享会-简书]     [Stata连享会-知乎]     [Stata连享会-码云] 
+            [Stata书单]            [Stata资源汇总] 
+Stata课程： [UCLA在线课程]         [Princeton在线课程] 
+
+Stata现场： [Stata初级班]        [Stata高级班]        [Stata优酷视频] 
+学术论文：  [学术搜索]        [CNKI]        [百度学术]          [Super Link] 
+
+
+
+   
+myQuick:  lec18 | econometric | stata | myda | guojin
+
+. do /Users/mac/.ipython/stata/code.do 
+
+. clear
+
+. set more off
+
+. set linesize 200
+
+. log using "/Users/mac/.ipython/stata/log_output.log", text replace
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/mac/.ipython/stata/log_output.log
+  log type:  text
+ opened on:   2 Nov 2021, 15:36:22
+
+. sysuse auto.dta
+(1978 automobile data)
+
+. graph twoway scatter trunk price
+
+. 
+. log close
+      name:  <unnamed>
+       log:  /Users/mac/.ipython/stata/log_output.log
+  log type:  text
+ closed on:   2 Nov 2021, 15:36:24
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+. graph display 
+
+. graph export "/Users/mac/myPrograme/MyCode/多软件交互/temp_graph.pdf", replace
+file /Users/mac/myPrograme/MyCode/多软件交互/temp_graph.pdf saved as PDF format
+
+. 
+. // End of line deletion prevention
+. 
+end of do-file
